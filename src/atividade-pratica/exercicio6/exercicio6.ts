@@ -7,7 +7,7 @@
    6.5. Teste Unitário: Escreva um teste que instancie as classes criadas, altere os atributos e teste o método comum da interface.
 */
 
-interface Animal {
+export interface Animal {
     // atributos
     pelos?: boolean;
     // métodos
@@ -15,7 +15,7 @@ interface Animal {
     comer(): void;
 }
 
-class Humano implements Animal {
+export class Humano implements Animal {
     nome: string;
     altura: number;
     peso: number;
@@ -45,7 +45,7 @@ class Humano implements Animal {
     }
 }
 
-class Gato implements Animal {
+export class Gato implements Animal {
     cor: string;
     sexo: string;
     peso: number;
