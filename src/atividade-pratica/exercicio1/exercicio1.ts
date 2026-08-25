@@ -14,3 +14,7 @@ export function elementosAoQuadrado(valores: number[]) {
 
     return quadrados;
 }
+
+// let numeros: number[] = [3, 5, 7, 3, 8, 9, 1];
+
+// console.log(elementosAoQuadrado(numeros));
