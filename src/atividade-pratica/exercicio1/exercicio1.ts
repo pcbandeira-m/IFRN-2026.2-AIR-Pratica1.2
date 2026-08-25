@@ -7,7 +7,6 @@
 
 export function elementosAoQuadrado(valores: number[]) {
     let quadrados: number[] = new Array(valores.length);
-
     for(let i=0; i < valores.length; i++) {
         quadrados[i] = valores[i]*valores[i];
     }
@@ -16,5 +15,4 @@ export function elementosAoQuadrado(valores: number[]) {
 }
 
 // let numeros: number[] = [3, 5, 7, 3, 8, 9, 1];
-
 // console.log(elementosAoQuadrado(numeros));
