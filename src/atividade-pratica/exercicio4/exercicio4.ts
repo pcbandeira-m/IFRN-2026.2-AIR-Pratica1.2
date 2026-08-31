@@ -10,7 +10,7 @@ export function fatiaDoArray(valores:number[]): number[] {
         console.log("Array vazio")
         return resultado = valores;
     } else if(valores.length == 1) {
-        console.log("Este array está vazio")
+        console.log("Este array é muito pequeno.")
         return resultado = valores;
     } else {
         resultado = valores.slice(0, 2)
